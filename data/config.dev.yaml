@@ -1,0 +1,17 @@
+server:
+  appName: "go-mentoring-1"
+  port: "3010"
+  mode: "release"
+  env: "dev"
+
+database: #dev
+  Dbname: "db_mentoring"
+  # Dbname: "db_mid_bpkb_dev"
+  host: "localhost"
+  port: "3306"
+  username: "root"
+  password: ""
+  driver: "mysql"
+  max_lifetime: 7200
+  max_open_conns: 150
+  max_idle_conns: 50
